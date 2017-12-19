@@ -1,5 +1,13 @@
 # dotfiles
 Dotfiles for tmux, zsh, bash etc. Linux and Mac
+
+# Install
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/imaginois/dotfiles/master/install.sh -O -)"
+```
+
+
+
 # Terminal
 Scripts and tricks to setup one terminal to rule them all...
 
