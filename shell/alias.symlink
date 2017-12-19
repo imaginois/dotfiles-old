@@ -13,7 +13,7 @@ alias ls="ls -CF"
 alias ..="cd .."
 alias fhere="find . -name "
 
-alias cat='ccat'
+#alias cat='ccat'
 
 alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias df="df -Tha --total"
