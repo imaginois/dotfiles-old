@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-echo -e "\n\nSetting OS X settings"
+echo -e "\n\n## Setting OS X settings"
 echo "=============================="
 
 # echo "Finder: show all filename extensions"

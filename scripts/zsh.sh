@@ -20,7 +20,7 @@ if [ -L ~/.zshrc ] || [ -f ~/.zshrc ]; then
   mv ~/.zshrc ~/.zshrc.backup
 fi
 
-if [ -L ~/.alias ] || [ -f ~/.zshrc ]; then
+if [ -L ~/.alias ] || [ -f ~/.alias ]; then
   echo "### ~/.alias already exists. Removing..."
   echo "#### Local aliases should be in ~/.zsh_alias and ~/.bash_alias respectively"
   rm -f ~/.alias

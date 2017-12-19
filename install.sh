@@ -23,3 +23,8 @@ if [ -f scripts/zsh.sh ]; then
   echo -e "\n\n### Setup Zsh Shell..."
   source scripts/zsh.sh
 fi
+
+if [ -f scripts/git.sh ]; then
+  echo -e "\n\n### Setup Git Shell..."
+  source scripts/git.sh
+fi
