@@ -42,9 +42,10 @@ if [ -f scripts/git.sh ]; then
   source scripts/git.sh
 fi
 
-if [ -f scripts/git.sh ]; then
+# docker should be installer before this point
+if [ -f scripts/docker.sh ] && command_exists docker; then
   echo -e "\n\n###############################################"
   echo -e "\n\n### Setup Docker Containers and Environments..."
-  echo -e "\n\n###############################################"
+  echo -e "\n\n###############################################\n\n"
   source scripts/docker.sh
 fi
