@@ -1,0 +1,30 @@
+alias gs='git status'
+
+alias nano='nano -W -S'
+
+# https://support.code42.com/CrashPlan/4/Troubleshooting/Stop_and_start_the_Code42_app_service
+alias stopcrash='sudo launchctl unload /Library/LaunchDaemons/com.crashplan.engine.plist'
+alias startcrash='sudo launchctl load /Library/LaunchDaemons/com.crashplan.engine.plist'
+# Aliases
+alias sl="ls"
+alias ls="ls -CF"
+#alias ll="ls -lhA"
+
+alias ..="cd .."
+alias fhere="find . -name "
+
+alias cat='ccat'
+
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias df="df -Tha --total"
+alias du="du -ach | sort -h"
+alias free="free -mt"
+#alias ps="ps aux"
+
+alias mkdir="mkdir -pv"
+alias wget="wget -c"
+alias histg="history | grep"
+
+
+alias porto='cd ~/Perforce/porto && vagrant up'
+alias v='nvim'
