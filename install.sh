@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
-export DOT_HOME=$PWD
+export DOT_HOME=~/.dotfiles
 
 command_exists() {
     type "$1" > /dev/null 2>&1
 }
 
 if [ ! -d ~/.dotfiles ]; then
-  git clone git@github.com:imaginois/dotfiles.git ~/.dotfiles
+  git clone git@github.com:imaginois/dotfiles.git $DOT_HOME
 fi
 
-cd ~/.dotfiles
+cd $DOT_HOME
 chmod +x install.sh
+pwd
+ls -la
 
 # only perform macOS-specific install
 if [ "$(uname)" == "Darwin" ]; then
