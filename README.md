@@ -42,7 +42,7 @@ brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 ```
 
-<<<<<<< HEAD
+
 ### Setup aliases
 Create symbolic links for .bash_alias and .zsh_alias
 
@@ -71,7 +71,6 @@ echo "\nsource ~/.bash_alias\n" >> ~/.bashrc
 
 - Go To **Preferences -> Profiles -> Colors** and select Solorized Dark
 - Go To the **Text** tab select **Change font** browse and select _Roboto Mono for Powerline_ 14pt
->>>>>>> 34ca61a5ca9a162309e9c1b02a4f425baa8aa450
 
 ### iTerm2 Keys setup
 To jump between words and start/end of lines in iTerm2 follow these steps:
