@@ -15,25 +15,25 @@ else
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
-if [ -f ~/.zshrc ]; then
+if [ -L ~/.zshrc ] || [ -f ~/.zshrc ]; then
   echo "### ~/.zshrc already exists. Making backup to ~/.zshrc.backup ..."
   mv ~/.zshrc ~/.zshrc.backup
 fi
 
-if [ -f ~/.alias ]; then
+if [ -L ~/.alias ] || [ -f ~/.zshrc ]; then
   echo "### ~/.alias already exists. Removing..."
   echo "#### Local aliases should be in ~/.zsh_alias and ~/.bash_alias respectively"
   rm -f ~/.alias
 fi
 
 echo "### Symlink .zshrc file from repo"
-ln -s $DOT_HOME/zshrc.symlink ~/.zshrc
+ln -s $DOT_HOME/shell/zshrc.symlink ~/.zshrc
 
 # Use the .alias file to set all the needed aliases.
 # if .zsh_alias or .bash_alias exists they wiil be sourced
 # after the .alias file to override possible conflicts
 echo "### Symlink .alias file from repo"
-ln -s $DOT_HOME/alias.symlink ~/.alias
+ln -s $DOT_HOME/shell/alias.symlink ~/.alias
 
 
 # if ! command_exists zplug; then
