@@ -41,3 +41,10 @@ if [ -f scripts/git.sh ]; then
   echo -e "\n\n### Setup Git Shell..."
   source scripts/git.sh
 fi
+
+if [ -f scripts/git.sh ]; then
+  echo -e "\n\n###############################################"
+  echo -e "\n\n### Setup Docker Containers and Environments..."
+  echo -e "\n\n###############################################"
+  source scripts/docker.sh
+fi
