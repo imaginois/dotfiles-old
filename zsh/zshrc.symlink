@@ -1,0 +1,40 @@
+# export changes to PATH.
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH
+export ZSH=/Users/imaginois/.oh-my-zsh
+
+DISABLE_AUTO_UPDATE=true
+DISABLE_UPDATE_PROMPT=true
+ZSH_THEME="norm"
+
+plugins=(
+  git
+  bundler
+  dotenv
+  osx
+  rake
+  rbenv
+  ruby
+  tmux
+  sublime
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-completions
+)
+
+# autoload -U compinit && compinit
+
+source $ZSH/oh-my-zsh.sh
+
+
+if [ -f ~/.alias ]; then
+  source ~/.alias
+fi
+
+if [ -f ~/.zsh_alias ]; then
+  source ~/.zsh_alias
+fi
+
+# allow the user to have a local rc file. Ignored by version control
+if [ -f ~/.zshrc.local ]; then
+  source ~/.zshrc.local
+fi
