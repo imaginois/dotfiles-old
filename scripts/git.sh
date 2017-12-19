@@ -7,13 +7,14 @@ echo "## Running git.sh script"
 # set global .gitignore
 git config --global core.excludesfile '~/.gitignore'
 
-
+echo "### Setup global ~/.gitignore"
 if [ -f ~/.gitignore ]; then
   rm -f ~/.gitignore
 fi
 
 ln -s $DOT_HOME/git/gitignore_global.symlink ~/.gitignore
 
+echo "### Setup global ~/.gitconfig"
 if [ -f ~/.gitconfig ]; then
   rm -f ~/.gitconfig
 fi
