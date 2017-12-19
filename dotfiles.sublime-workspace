@@ -1,0 +1,215 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chann",
+				"channelNumber"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 149.0,
+		"last_filter": "settings",
+		"selected_items":
+		[
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/imaginois/.dotfiles"
+	],
+	"file_history":
+	[
+		"/Users/imaginois/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/imaginois/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/imaginois/.CMVolumes/192.168.4.141/var/www/vstb/dist/optimized.d204306ae438.js",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.5418518fc35e.js",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.min.656eb2bc4e68.css",
+		"/Users/imaginois/.CMVolumes/192.168.4.141/var/www/vstb/dist/optimized.min.745f1c215a62.css",
+		"/Users/imaginois/Perforce/VSTB/ML/src/skin/revgo/css/optimized.css",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.min.c15a212f1c26.css",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.min.80f4581f88e5.css",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.min.3adcb0f572a0.css",
+		"/Users/imaginois/Perforce/VSTB/ML/src/scripts/base/config.js",
+		"/Users/imaginois/Perforce/VSTB/ML/dist/optimized.js",
+		"/Users/imaginois/Downloads/dist/optimized.min.745f1c215a62.css",
+		"/Users/imaginois/.CMVolumes/192.168.4.141/var/www/vstb/dist_/optimized.d089a05fae52.js",
+		"/Users/imaginois/.CMVolumes/192.168.4.141/var/www/vstb/dist_/optimized.90377077cfb8.js",
+		"/Users/imaginois/Perforce/session/client/properties.json",
+		"/Users/imaginois/.CMVolumes/4.141/var/www/vstb/src/scripts/helper/avnHelper.js",
+		"/Users/imaginois/.CMVolumes/4.141/var/www/vstb/src/scripts/widget/barkerVideo.js",
+		"/Users/imaginois/.CMVolumes/4.141/var/www/vstb/src/scripts/lib/keycontroller.js",
+		"/Users/imaginois/.dotfiles/.zshrc",
+		"/Users/imaginois/.dotfiles/.alias",
+		"/Users/imaginois/.bashrc",
+		"/Users/imaginois/.dotfiles/install.sh"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dotfiles.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"con",
+				"puphpet/config.yaml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
