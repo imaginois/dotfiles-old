@@ -1,6 +1,6 @@
 # export changes to PATH.
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:$PATH
-export ZSH=/Users/imaginois/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
