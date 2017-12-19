@@ -16,13 +16,13 @@ pwd
 ls -la
 
 # only perform macOS-specific install
-if [ "$(uname)" == "Darwin" ]; then
+if [ `uname` == "Darwin" ]; then
   echo -e "\n\n### Running on OSX"
   source scripts/brew.sh
   source scripts/osx.sh
 fi
 
-if [ "$(uname)" == "Linux" ]; then
+if [ `uname` == "Linux" ]; then
   echo -e "\n\n### Running on Linux"
   source scripts/linux.sh
   source scripts/apt.sh
