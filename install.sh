@@ -32,6 +32,11 @@ if [ -f scripts/zsh.sh ]; then
   source scripts/zsh.sh
 fi
 
+if [ -f scripts/npm.sh ]; then
+  echo -e "\n\n### Setup NPM Global packages"
+  source scripts/npm.sh
+fi
+
 if [ -f scripts/git.sh ]; then
   echo -e "\n\n### Setup Git Shell..."
   source scripts/git.sh
