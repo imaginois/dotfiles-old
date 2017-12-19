@@ -8,10 +8,10 @@ command_exists() {
 
 if [ ! -d ~/.dotfiles ]; then
   git clone git@github.com:imaginois/dotfiles.git ~/.dotfiles
-  cd ~/.dotfiles
-  chmod +x install.sh
 fi
 
+cd ~/.dotfiles
+chmod +x install.sh
 
 # only perform macOS-specific install
 if [ "$(uname)" == "Darwin" ]; then
