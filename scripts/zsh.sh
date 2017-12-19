@@ -12,7 +12,7 @@ if [ -d ~/.oh-my-zsh ]; then
   echo "### Oh-My-Zsh seems to be already isntalled. Skipping..."
 else
   echo "### Installing Oh-My-Zsh"
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
 fi
 
 if [ -L ~/.zshrc ] || [ -f ~/.zshrc ]; then

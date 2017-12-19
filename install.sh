@@ -9,17 +9,17 @@ command_exists() {
 # only perform macOS-specific install
 if [ "$(uname)" == "Darwin" ]; then
   echo -e "\n\n### Running on OSX"
-  source install/brew.sh
-  source install/osx.sh
+  source scripts/brew.sh
+  source scripts/osx.sh
 fi
 
 if [ "$(uname)" == "Linux" ]; then
   echo -e "\n\n### Running on Linux"
-  source install/linux.sh
-  source install/apt.sh
+  source scripts/linux.sh
+  source scripts/apt.sh
 fi
 
-if [ -f install/zsh.sh ]; then
+if [ -f scripts/zsh.sh ]; then
   echo -e "\n\n### Setup Zsh Shell..."
-  source install/zsh.sh
+  source scripts/zsh.sh
 fi
