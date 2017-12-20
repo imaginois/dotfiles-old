@@ -6,7 +6,7 @@ command_exists() {
     type "$1" > /dev/null 2>&1
 }
 
-if [ ! -d ~/.dotfiles ]; then
+if [ ! -d $DOT_HOME ]; then
   git clone git@github.com:imaginois/dotfiles.git $DOT_HOME
 fi
 
