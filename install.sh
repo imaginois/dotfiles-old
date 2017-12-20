@@ -15,6 +15,15 @@ chmod +x install.sh
 pwd
 ls -la
 
+
+# TODO: Make this into a loop...
+
+if [ -f scripts/backup.sh ]; then
+  echo -e "\n\n>>>>>>>>> Running backup.sh"
+  source scripts/backup.sh
+fi
+
+
 # only perform macOS-specific install
 if [ `uname` == "Darwin" ]; then
   echo -e "\n\n### Running on OSX"
