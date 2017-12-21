@@ -8,9 +8,9 @@ fi
 # teap Homebrew-Cask
 brew tap caskroom/cask
 
-if [ ! -e /Applications/iTerm.app ]; then
-    brew cask install iterm2
-fi
+# if [ ! -e /Applications/iTerm.app ]; then
+#     brew cask install iterm2
+# fi
 
 echo -e "\n\nInstalling homebrew packages..."
 echo "=============================="
@@ -47,6 +47,24 @@ for formula in "${formulas[@]}"; do
         echo "$formula already installed... skipping."
     else
         brew install $formula
+    fi
+done
+
+echo -e "\n\nInstalling homebrew cask packages..."
+echo "=============================="
+
+
+cask_formulas=(
+    iterm2
+    vagrant
+    vagrant-manager
+)
+
+for cask in "${cask_formulas[@]}"; do
+    if brew list "$cask" > /dev/null 2>&1; then
+        echo "$cask already installed... skipping."
+    else
+        brew cask install $cask
     fi
 done
 

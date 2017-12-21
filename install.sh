@@ -59,3 +59,11 @@ if [ -f scripts/docker.sh ] && command_exists docker; then
   echo -e "\n\n###############################################\n\n"
   source scripts/docker.sh
 fi
+
+# vagrant should be installer before this point
+if [ -f scripts/vagrant.sh ] && command_exists vagrant; then
+  echo -e "\n\n###############################################"
+  echo -e "\n\n### Setup Vagrant VMs and Environments..."
+  echo -e "\n\n###############################################\n\n"
+  source scripts/vagrant.sh
+fi

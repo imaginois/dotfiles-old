@@ -18,7 +18,5 @@ fi
 
 ln -s $DOT_HOME/git/gitconfig.symlink ~/.gitconfig
 
-
-
 # set global .gitignore
 git config --global core.excludesfile '~/.gitignore'

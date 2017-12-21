@@ -1,0 +1,43 @@
+/Users/imaginois/.dotfiles
+total 16
+drwxr-xr-x  10 imaginois  staff   320 Dec 20 17:04 .
+drwxr-xr-x+ 62 imaginois  staff  1984 Dec 20 17:04 ..
+drwxr-xr-x  18 imaginois  staff   576 Dec 20 17:04 .git
+-rw-r--r--   1 imaginois  staff  3196 Dec 19 14:07 README.md
+drwxr-xr-x   6 imaginois  staff   192 Dec 20 17:01 git
+-rw-r--r--   1 imaginois  staff    27 Dec 20 17:04 grep
+-rwxr-xr-x   1 imaginois  staff  1630 Dec 20 16:59 install.sh
+drwxr-xr-x   3 imaginois  staff    96 Dec 19 19:31 iterm2
+drwxr-xr-x  12 imaginois  staff   384 Dec 20 16:58 scripts
+drwxr-xr-x   4 imaginois  staff   128 Dec 18 18:40 shell
+
+
+>>>>>>>>> Running backup.sh
+Creating backup directory at /Users/imaginois/dotfiles-backup
+backing up .zshrc
+backing up .alias
+backing up .gitconfig
+.gitignore_global does not exist at this location or is a symlink
+/Users/imaginois/.config/nvim does not exist at this location or is a symlink
+
+
+### Running on OSX
+
+
+Installing homebrew packages...
+==============================
+ack already installed... skipping.
+dnsmasq already installed... skipping.
+fzf already installed... skipping.
+git already installed... skipping.
+highlight already installed... skipping.
+hub already installed... skipping.
+markdown already installed... skipping.
+neovim/neovim/neovim already installed... skipping.
+node already installed... skipping.
+nginx already installed... skipping.
+reattach-to-user-namespace already installed... skipping.
+the_silver_searcher already installed... skipping.
+tmux already installed... skipping.
+tree already installed... skipping.
+wget already installed... skipping.
