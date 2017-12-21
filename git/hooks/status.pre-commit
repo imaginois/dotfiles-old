@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo ""
+echo ""
+echo -e "\033[1m GIT STATUS \033[0m"
+git status
+echo ""
+echo ""

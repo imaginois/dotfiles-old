@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo ""
+echo ""
+echo -e "\033[1m THIS IS A PRE-PUSH HOOK \033[0m"
+echo ""
+echo ""
