@@ -53,7 +53,7 @@ done
 
 # Install Mac Specific apps but not with homebrew
 # Install Docker
-if [ -f /Applications/Docker.dmg ]; then
+if [ -f /Applications/Docker.app ]; then
     echo -e "\n\n### Docker already install at /Applications/Docker.dmg"
 else
     echo -e "\n\n### Installing Docker"
