@@ -4,6 +4,10 @@ Dotfiles for tmux, zsh, bash etc. Linux and Mac
 # Features
 - [ ] Git Hooks
 
+# Configs
+- [x] Git
+- [ ] OpenVPN
+
 # Install
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/imaginois/dotfiles/master/install.sh -O -)"
