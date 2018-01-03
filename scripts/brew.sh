@@ -40,6 +40,7 @@ formulas=(
     ripgrep
     git-standup
     entr
+    watch
 )
 
 for formula in "${formulas[@]}"; do

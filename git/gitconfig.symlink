@@ -105,7 +105,7 @@
     pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
 [color]
     diff = auto
-    status = auto
+	status = always
     branch = auto
     interactive = auto
     ui = auto
