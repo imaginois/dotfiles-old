@@ -27,3 +27,16 @@ I hope this makes sense so far because here is the quiestion
 	## When Parental Expires automatically
 	## When User locks/unlocks parental controle manually
 	## When Operator changes parental level on a certain content
+
+
+# Session switching from inside the Minerva app when selecting VOD header ( soft navigation )
+
+# History and parental timeout after session swtich
+
+
+
+
+
+**** TODO
+
+Mark this biuld as Stable
