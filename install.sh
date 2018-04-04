@@ -7,7 +7,7 @@ command_exists() {
 }
 
 if [ ! -d $DOT_HOME ]; then
-  git clone git@github.com:imaginois/dotfiles.git $DOT_HOME
+  git clone https://github.com/imaginois/dotfiles.git $DOT_HOME
 fi
 
 cd $DOT_HOME
