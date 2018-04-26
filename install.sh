@@ -1,10 +1,12 @@
 #!/bin/sh
 
-export DOT_HOME=~/.dotfiles
+export DOT_HOME=$(echo ~/.dotfiles)
 
 command_exists() {
     type "$1" > /dev/null 2>&1
 }
+
+echo $DOT_HOME
 
 if [ ! -d $DOT_HOME ]; then
   git clone https://github.com/imaginois/dotfiles.git $DOT_HOME
