@@ -20,9 +20,9 @@ ls -la
 
 # TODO: Make this into a loop...
 
-if [ -f scripts/backup.sh ]; then
-  echo -e "\n\n>>>>>>>>> Running backup.sh"
-  source scripts/backup.sh
+if [ -f $DOT_HOME/scripts/backup.sh ]; then
+  echo -e "\n\n>>>>>>>>> Running backup.sh $DOT_HOME/scripts/backup.sh"
+  source $DOT_HOME/scripts/backup.sh
 fi
 
 
