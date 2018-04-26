@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export DOT_HOME=~/.dotfiles
+export DOT_HOME=$(~/.dotfiles)
 
 command_exists() {
     type "$1" > /dev/null 2>&1
